@@ -3,13 +3,11 @@
     xmlns="http://www.w3.org/ns/widgets" 
     xmlns:cdv="http://cordova.apache.org/ns/1.0">
 
-    <name>HelloWorld</name>
+    <name>佳沃思</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        佳沃思进销存系统
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
-    </author>
+    <icon src="jvs.png" />
     <preference name="phonegap-version" value="cli-8.0.0" />
 
     <content src="http://192.168.2.92:8080" />
