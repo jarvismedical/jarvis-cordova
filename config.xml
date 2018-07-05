@@ -8,9 +8,9 @@
         佳沃思进销存系统
     </description>
     <icon src="jvs.png" />
+    <splash src="jvs-splash.png" />
+
     <preference name="phonegap-version" value="cli-8.0.0" />
-    <preference name="SplashScreenDelay" value="0"/>
-    <preference name="FadeSplashScreenDuration" value="0"/>
 
     <content src="http://192.168.2.92:8080" />
     <access origin="*" />
