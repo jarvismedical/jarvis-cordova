@@ -28,7 +28,7 @@
         <allow-intent href="itms-apps:*" />
     </platform>
 
-    <edit-config target="Info.plist" parent="NSCameraUsageDescription" mode="merge">
+    <edit-config target="*-Info.plist" parent="NSCameraUsageDescription" mode="merge">
         <string>申请使用摄像头权限</string>
     </edit-config>
 
