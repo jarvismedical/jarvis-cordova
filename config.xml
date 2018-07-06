@@ -12,8 +12,6 @@
 
     <preference name="phonegap-version" value="cli-8.0.0" />
     <preference name="DisallowOverscroll" value="true" />
-    <preference name="StatusBarOverlaysWebView" value="false" />
-    <preference name="StatusBarStyle" value="lightcontent" />
     <preference name="CRIInjectFirstFiles" value="www/js/init.js" />
 
     <content src="http://192.168.2.92:8080" />
