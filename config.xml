@@ -11,6 +11,7 @@
     <splash src="jvs-splash.png" />
 
     <preference name="phonegap-version" value="cli-8.0.0" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
 
     <content src="http://192.168.2.92:8080" />
     <access origin="*" />
@@ -33,6 +34,7 @@
     </config-file>
 
     <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" />
+    <plugin name="cordova-plugin-statusbar" spec="^2.4.2" />
     <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
     <plugin name="cordova-plugin-inappbrowser-wkwebview" spec="^1.0.7" />
     <plugin name="cordova-plugin-wkwebview-engine" spec="^1.1.4" />
