@@ -11,6 +11,8 @@
     <splash src="jvs-splash.png" />
 
     <preference name="phonegap-version" value="cli-8.0.0" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
 
     <content src="http://192.168.2.92:8080" />
     <access origin="*" />
@@ -43,5 +45,5 @@
     </plugin>
     <engine name="android" spec="^7.0.0" />
 
-    <preference name="StatusBarOverlaysWebView" value="false" />
+
 </widget>
