@@ -15,7 +15,7 @@
     <preference name="StatusBarBackgroundColor" value="#000000" />
     <preference name="CRIInjectFirstFiles" value="www/js/init.js" />
 
-    <content src="https://mat.jwsmed.com" />
+    <content src="https://mattest.jwsmed.com" />
     <access origin="*" />
    
     <allow-navigation href="http://*.jwsmed.com/*" />
