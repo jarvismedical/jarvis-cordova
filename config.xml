@@ -8,7 +8,6 @@
         佳沃思进销存系统
     </description>
     <icon src="jvs.png" />
-    <splash src="jvs-splash.png" />
 
     <preference name="phonegap-version" value="cli-8.0.0" />
     <preference name="DisallowOverscroll" value="true" />
