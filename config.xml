@@ -16,12 +16,12 @@
     <preference name="CRIInjectFirstFiles" value="www/js/init.js" />
 
     <!-- <content src="https://mat.jwsmed.com" /> -->
-    <content src="http://192.168.2.92" />
+    <content src="http://192.168.2.92:8080" />
     <access origin="*" />
    
     <allow-navigation href="http://*.jwsmed.com/*" />
     <allow-navigation href="https://*.jwsmed.com/*" />
-    <allow-navigation href="http://192.168.2.92/*" />
+    <allow-navigation href="http://192.168.2.92:8080/*" />
     
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
