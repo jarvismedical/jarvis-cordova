@@ -45,7 +45,7 @@
     </platform>
 
     <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-        <string>申请使用摄像头权限</string>
+        <string>申请使用摄像头权限，用于扫码收货等功能</string>
     </config-file>
     <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
         <string>申请使用相册权限，用于提交库存报损</string>
