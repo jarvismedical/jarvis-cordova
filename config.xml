@@ -8,7 +8,7 @@
         佳沃思进销存系统
     </description>
     
-    <icon src="icons/icon.png">
+    <icon src="icons/icon.png" />
     
     <splash src="jvs-splash.png" />
 
