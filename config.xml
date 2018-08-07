@@ -16,6 +16,7 @@
     <preference name="DisallowOverscroll" value="true" />
     <preference name="StatusBarBackgroundColor" value="#000000" />
     <preference name="CRIInjectFirstFiles" value="www/js/init.js" />
+    <preference name="target-device" value="handset" />
 
     <content src="https://mat.jwsmed.com" />
     <!-- <content src="http://192.168.2.17:8080" /> -->
