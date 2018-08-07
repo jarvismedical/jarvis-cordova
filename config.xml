@@ -7,7 +7,9 @@
     <description>
         佳沃思进销存系统
     </description>
-    <icon src="icon.png" width="1024" height="1024" />
+    
+    <icon src="icons/icon.png">
+    
     <splash src="jvs-splash.png" />
 
     <preference name="phonegap-version" value="cli-8.0.0" />
@@ -34,6 +36,11 @@
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
+        
+        <icon src="icon-76.png" width="76" height="76" />
+        <icon src="icon-120.png" width="120" height="120" />
+        <icon src="icon-152.png" width="152" height="152" />
+        <icon src="icon-1024.png" width="1024" height="1024" />
     </platform>
 
     <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
