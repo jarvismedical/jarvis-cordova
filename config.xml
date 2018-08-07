@@ -48,7 +48,7 @@
         <string>申请使用摄像头权限</string>
     </config-file>
     <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
-        <string>申请使用本地存储读写权限</string>
+        <string>申请使用相册权限，用于提交库存报损</string>
     </config-file>
 
     <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" />
