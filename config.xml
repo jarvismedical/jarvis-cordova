@@ -18,8 +18,8 @@
     <preference name="CRIInjectFirstFiles" value="www/js/init.js" />
     <preference name="target-device" value="handset" />
 
-    <!-- <content src="https://mattest.jwsmed.com" /> -->
-    <content src="http://192.168.2.51:8080" />
+    <content src="https://matpre.jwsmed.com" />
+    <!-- <content src="http://192.168.2.51:8080" /> -->
     <access origin="*" />
    
     <allow-navigation href="http://*.jwsmed.com/*" />
