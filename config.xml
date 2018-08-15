@@ -1,17 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.jarvismedical" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.jarvismedical" version="1.0.2"
+     xmlns="http://www.w3.org/ns/widgets" 
+     xmlns:cdv="http://cordova.apache.org/ns/1.0">
+     
     <name>佳沃思</name>
     <description>
         佳沃思进销存系统
     </description>
-    <icon src="icons/icon.png" />
-    <splash src="jvs-splash.png" />
+
     <preference name="phonegap-version" value="cli-8.0.0" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="StatusBarBackgroundColor" value="#000000" />
     <preference name="CRIInjectFirstFiles" value="www/js/init.js" />
     <preference name="target-device" value="handset" />
+    
     <content src="https://matpre.jwsmed.com" />
+    
     <access origin="*" />
     <allow-navigation href="http://*.jwsmed.com/*" />
     <allow-navigation href="https://*.jwsmed.com/*" />
@@ -21,6 +25,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+   
     <platform name="android">
         <allow-intent href="market:*" />
         
@@ -94,7 +99,7 @@
     <plugin name="phonegap-plugin-barcodescanner" spec="^8.0.0">
         <variable name="ANDROID_SUPPORT_V4_VERSION" value="27.+" />
     </plugin>
-    
+
     <engine name="android" spec="^7.0.0" />
     <engine name="ios" spec="~4.5.5" />
 </widget>
