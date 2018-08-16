@@ -1,21 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.jarvismedical" version="1.0.2"
-     xmlns="http://www.w3.org/ns/widgets" 
-     xmlns:cdv="http://cordova.apache.org/ns/1.0">
-     
+<widget id="com.jarvismedical" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>佳沃思</name>
     <description>
         佳沃思进销存系统
     </description>
-
     <preference name="phonegap-version" value="cli-8.0.0" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="StatusBarBackgroundColor" value="#000000" />
     <preference name="CRIInjectFirstFiles" value="www/js/init.js" />
     <preference name="target-device" value="handset" />
-    
     <content src="https://matpre.jwsmed.com" />
-    
     <access origin="*" />
     <allow-navigation href="http://*.jwsmed.com/*" />
     <allow-navigation href="https://*.jwsmed.com/*" />
@@ -25,17 +19,14 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-   
     <platform name="android">
         <allow-intent href="market:*" />
-        
         <icon src="res/icon.png" />
         <splash src="res/splash.png" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
-
         <icon height="57" platform="ios" src="res/icons/ios/icon.png" width="57" />
         <icon height="114" platform="ios" src="res/icons/ios/icon@2x.png" width="114" />
         <icon height="40" platform="ios" src="res/icons/ios/icon-40.png" width="40" />
@@ -52,7 +43,6 @@
         <icon height="29" platform="ios" src="res/icons/ios/icon-small.png" width="29" />
         <icon height="58" platform="ios" src="res/icons/ios/icon-small@2x.png" width="58" />
         <icon height="87" platform="ios" src="res/icons/ios/icon-small@3x.png" width="87" />
-       
         <splash height="1136" platform="ios" src="res/screens/ios/Default-568h@2x~iphone.png" width="640" />
         <splash height="1334" platform="ios" src="res/screens/ios/Default-667h.png" width="750" />
         <splash height="2208" platform="ios" src="res/screens/ios/Default-736h.png" width="1242" />
@@ -64,25 +54,22 @@
         <splash height="960" platform="ios" src="res/screens/ios/Default@2x~iphone.png" width="640" />
         <splash height="480" platform="ios" src="res/screens/ios/Default~iphone.png" width="320" />
     </platform>
-
     <config-file parent="NSCameraUsageDescription" target="*-Info.plist">
         <string>申请使用摄像头权限，用于扫码收货等功能</string>
     </config-file>
     <config-file parent="NSPhotoLibraryUsageDescription" target="*-Info.plist">
         <string>申请使用相册权限，用于提交库存报损</string>
     </config-file>
-
+    <engine name="android" spec="^7.0.0" />
+    <engine name="ios" spec="~4.5.5" />
     <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" />
     <plugin name="cordova-plugin-statusbar" spec="^2.4.2" />
     <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
     <plugin name="cordova-plugin-inappbrowser-wkwebview" spec="^1.0.7" />
     <plugin name="cordova-plugin-wkwebview-engine" spec="^1.1.4" />
-    <plugin name="cordova-plugin-remote-injection" spec="plugins/cordova-plugin-remote-injection" />
     <plugin name="cordova-plugin-camera" spec="^4.0.3" />
     <plugin name="phonegap-plugin-barcodescanner" spec="^8.0.0">
         <variable name="ANDROID_SUPPORT_V4_VERSION" value="27.+" />
     </plugin>
-
-    <engine name="android" spec="^7.0.0" />
-    <engine name="ios" spec="~4.5.5" />
+    <plugin name="cordova-plugin-remote-injection" spec="plugins/cordova-plugin-remote-injection" />
 </widget>
