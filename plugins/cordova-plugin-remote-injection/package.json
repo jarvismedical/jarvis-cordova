@@ -9,10 +9,6 @@
       "ios"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/TruckMovers/cordova-plugin-remote-injection"
-  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
