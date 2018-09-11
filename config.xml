@@ -53,6 +53,7 @@
         <splash height="1024" platform="ios" src="res/screens/ios/Default-Portrait~ipad.png" width="768" />
         <splash height="960" platform="ios" src="res/screens/ios/Default@2x~iphone.png" width="640" />
         <splash height="480" platform="ios" src="res/screens/ios/Default~iphone.png" width="320" />
+        <splash height="2732" platform="ios" src="res/screens/ios/Default@2x~ipad~comany.png" width="1278" />
     </platform>
     <config-file parent="NSCameraUsageDescription" target="*-Info.plist">
         <string>申请使用摄像头权限，用于扫码收货等功能</string>
