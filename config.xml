@@ -9,7 +9,7 @@
     <preference name="StatusBarBackgroundColor" value="#000000" />
     <preference name="CRIInjectFirstFiles" value="www/js/init.js" />
     <preference name="target-device" value="handset" />
-    <content src="http://mat.jwsmed.com/inventory" />
+    <content src="https://matpre.jwsmed.com" />
     <access origin="*" />
     <allow-navigation href="http://*.jwsmed.com/*" />
     <allow-navigation href="https://*.jwsmed.com/*" />
@@ -75,4 +75,7 @@
     </plugin>
     <engine name="ios" spec="^4.5.5" />
     <engine name="android" spec="~7.0.0" />
+    <plugin name="cordova-plugin-wechat" spec="https://github.com/yujianok/cordova-plugin-wechat">
+        <variable name="WECHATAPPID" value="wx1f00ad520cb4679d" />
+    </plugin>
 </widget>
