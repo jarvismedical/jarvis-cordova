@@ -9,7 +9,7 @@
     <preference name="StatusBarBackgroundColor" value="#000000" />
     <preference name="CRIInjectFirstFiles" value="www/js/init.js" />
     <preference name="target-device" value="handset" />
-    <content src="https://matpre.jwsmed.com" />
+    <content src="https://mat.jwsmed.com" />
     <access origin="*" />
     <allow-navigation href="http://*.jwsmed.com/*" />
     <allow-navigation href="https://*.jwsmed.com/*" />
@@ -70,7 +70,7 @@
     <plugin name="phonegap-plugin-barcodescanner" spec="^8.0.0">
         <variable name="ANDROID_SUPPORT_V4_VERSION" value="27.+" />
     </plugin>
-    <plugin name="cordova-plugin-remote-injection" spec="https://github.com/yujianok/cordova-plugin-remote-injection.git" />
+    <plugin name="cordova-plugin-remote-injection" spec="https://github.com/jarvismedical/cordova-plugin-remote-injection.git" />
     <plugin name="cordova-plugin-alipay-v2" spec="^1.0.0">
         <variable name="APP_ID" value="2017120500391388" />
     </plugin>
