@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.jarvismedical" version="1.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.jarvismedical" version="1.0.6" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>佳沃思</name>
     <description>
         佳沃思进销存系统
@@ -75,8 +75,9 @@
         <variable name="APP_ID" value="2017120500391388" />
     </plugin>
     <engine name="ios" spec="^4.5.5" />
-    <engine name="android" spec="~7.0.0" />
-    <plugin name="cordova-plugin-wechat" spec="https://github.com/jarvismedical/cordova-plugin-wechat">
+    <plugin name="cordova-plugin-wechat" spec="https://github.com/jarvismedical/cordova-plugin-wechat.git">
         <variable name="WECHATAPPID" value="wx778cbe84bf012b87" />
     </plugin>
+    <plugin name="cordova-plugin-app-version" spec="^0.1.9" />
+    <engine name="android" spec="~7.1.1" />
 </widget>
