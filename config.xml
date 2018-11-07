@@ -9,7 +9,7 @@
     <preference name="StatusBarBackgroundColor" value="#000000" />
     <preference name="CRIInjectFirstFiles" value="www/js/init.js" />
     <preference name="target-device" value="handset" />
-    <content src="https://mat.jwsmed.com" />
+    <content src="https://m.jwsmed.com" />
     <access origin="*" />
     <allow-navigation href="http://*.jwsmed.com/*" />
     <allow-navigation href="https://*.jwsmed.com/*" />
