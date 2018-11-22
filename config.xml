@@ -85,5 +85,5 @@
         <variable name="ANDROID_HOST" value=" " />
         <variable name="ANDROID_PATHPREFIX" value="/" />
     </plugin>
-    <engine name="android" spec="~7.1.1" />
+    <engine name="android" spec="~7.1.2" />
 </widget>
